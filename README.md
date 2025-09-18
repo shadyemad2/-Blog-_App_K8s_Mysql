@@ -35,7 +35,7 @@ k8s-blog-app/
 │  └─ ingress.yaml
 ├─ Dockerfile         # Builds Flask app image
 └─ README.md          # Project documentation
-
+ط
 ---
 ---
 
