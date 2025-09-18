@@ -36,7 +36,7 @@ k8s-blog-app/
 ├─ Dockerfile         # Builds Flask app image
 └─ README.md          # Project documentation
 
-
+---
 ---
 
 ## 🚀 Deployment Steps
