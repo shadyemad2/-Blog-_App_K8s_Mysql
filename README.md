@@ -1,6 +1,10 @@
-# 📝 Mini Blog App (Kubernetes + MySQL)
+# 📝 Blog App (Kubernetes + MySQL)
 
-**Mini Blog App** is a simple web application deployed on **Kubernetes**. It allows users to submit and view blog posts through a web interface. The backend is built with **Flask** (Python), and the data is stored in a **MySQL** database. This project demonstrates key Kubernetes concepts such as Deployments, StatefulSets, Headless Services, Secrets, ConfigMaps, Services, and Ingress.
+**Blog App** is a simple web application deployed on **Kubernetes**. It allows users to submit and view blog posts through a web interface. The backend is built with **Flask** (Python), and the data is stored in a **MySQL** database. This project demonstrates key Kubernetes concepts such as Deployments, StatefulSets, Headless Services, Secrets, ConfigMaps, Services, and Ingress.
+
+<img width="487" height="561" alt="app" src="https://github.com/user-attachments/assets/ce1eac84-1873-46dd-bcbf-d9a3c9aed0a3" />
+
+<img width="946" height="647" alt="app2" src="https://github.com/user-attachments/assets/1704ec0d-ce76-4ae0-8903-3ff7e2a68952" />
 
 ---
 
@@ -77,18 +81,6 @@ SHOW TABLES;
 
 ---
 
-## 🛠️ Troubleshooting
-
-- **503 Service Temporarily Unavailable:**  
-  Check Ingress rules, ensure service name and port match the backend deployment.
-
-- **Database connection errors:**  
-  Verify MySQL Pod is running.  
-  Check endpoints: `kubectl get endpoints mysql`  
-  Ensure Secrets and environment variables in the Deployment match MySQL credentials.
-
----
-
 ## ✅ Tech Stack
 
 - Kubernetes (Minikube)  
@@ -102,5 +94,5 @@ SHOW TABLES;
 
 ## 👤 Author
 
-**Shady Emad** – DevOps / Kubernetes / Cloud Enthusiast
+**Shady Emad** – DevOps / Kubernetes / Cloud / Linux
 
