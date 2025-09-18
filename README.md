@@ -16,7 +16,6 @@
 - **Secrets Management:** Database credentials are stored securely using Kubernetes **Secrets**.  
 - **Networking:** The Flask app is exposed inside the cluster via a **Service** and externally through an **Ingress** at `blog.local`.  
 
----
 
 ---
 
@@ -60,6 +59,8 @@ curl http://blog.local
 kubectl exec -it mysql-0 -- mysql -u root -p
 USE blogdb;
 SHOW TABLES;
+
+<img width="417" height="323" alt="db" src="https://github.com/user-attachments/assets/2465595d-0648-427e-bde9-8c5df8aca267" />
 
 ---
 
