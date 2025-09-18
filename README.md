@@ -18,25 +18,6 @@
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-k8s-blog-app/
-├─ app/              # Flask application code
-│  ├─ app.py
-│  └─ requirements.txt
-├─ k8s/              # Kubernetes manifests
-│  ├─ app-deployment.yaml
-│  ├─ mysql-statefulset.yaml
-│  ├─ secrets.yaml
-│  ├─ configmap.yaml
-│  ├─ headless.yaml
-│  ├─ service.com
-│  └─ ingress.yaml
-├─ Dockerfile         # Builds Flask app image
-└─ README.md          # Project documentation
-ط
----
 ---
 
 ## 🚀 Deployment Steps
